@@ -1,0 +1,71 @@
+.wrapper-form {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    background-color: #121a20;
+    padding: 30px;
+    border: 2px solid grey;
+    width: 70vw;
+
+    .form-description {
+        margin-right: 28px;
+    }
+
+    .first-description-form {
+        font-size: 18px;
+        margin-top: 9px;
+    }
+
+    .name-description {
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .form-email {
+        font-size: 10px;
+        margin-top: 6px;
+    }
+
+    .textarea {
+        width: 82%;
+        height: 70px;
+        color: black;
+        margin-top: 10px;
+    }
+
+    .form-column {
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 39px;
+    }
+
+    input {
+        font-size: 13px;
+        width: 188px;
+        margin-top: 10px;
+    }
+
+    .form-button {
+        text-decoration: none;
+        background-color: rgb(145, 132, 132);
+        margin-top: 10px;
+        cursor: pointer;
+        font-size: 9px;
+        width: 50px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        display: inline-block;
+        color: black;
+        font-weight: 700;
+        border: none;
+
+        &:hover {
+            background-color: #5cdb36;
+            color: white;
+        }
+    }
+}

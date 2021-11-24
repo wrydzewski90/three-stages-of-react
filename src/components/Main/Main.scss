@@ -1,0 +1,54 @@
+@keyframes pulsate {
+    0% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
+}
+
+.main-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    line-height: 2em;
+    padding: 40px 5px 5px 44px;
+
+    .name {
+        text-transform: capitalize;
+        font-weight: 400;
+        font-size: 28px;
+        padding: 5px;
+        transition: 0.6;
+        animation: pulsate 800ms infinite;
+    }
+
+    .introduce {
+        font-weight: 400;
+        font-size: 21px;
+        color: #ccc;
+        letter-spacing: 0.6px;
+    }
+
+    a {
+        text-decoration: none;
+        color: rgb(230, 186, 105);
+        letter-spacing: 1px;
+        text-transform: capitalize;
+
+        &:hover {
+            color: rgb(218, 143, 5);
+        }
+    }
+
+    .pic {
+        width: 500px;
+        height: 400px;
+        transform: translate(80%, -29%);
+        border-radius: 5px;
+    }
+}

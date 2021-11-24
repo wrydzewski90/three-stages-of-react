@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+    color:white;
+}
+
+ul > li {
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}
+
+.contact {
+    margin-left: 1000px;
+}
+.navbar-wrapper {
+    list-style: none;
+    text-transform: capitalize;
+}

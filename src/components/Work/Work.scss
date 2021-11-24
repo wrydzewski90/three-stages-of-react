@@ -1,0 +1,42 @@
+@keyframes slide-right {
+    from {
+        margin-left: 90%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+.work-wrapper {
+    .brand {
+        background: linear-gradient(#17201f, #161f1c);
+        padding: 70px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        margin-bottom: 50px;
+        color: #ccc;
+    }
+
+    .skodaImage {
+        width: 160px;
+        width: 250px;
+        border-radius: 30%;
+    }
+    .skoda {
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    .exp {
+        text-transform: uppercase;
+        font-size: 29px;
+        font-weight: 900;
+        animation-name: slide-right;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-direction: alternate;
+        color:white;
+    }
+}
