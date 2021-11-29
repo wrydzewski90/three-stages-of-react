@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 4,
+      "fullName": "Zdzichu Parowa",
+      "address": "Raperska 997",
+      "phoneNumber": "71 317 70 0222345",
+      "email": "kocham2@policja.plll"
+    },
+    {
+      "id": 5,
+      "fullName": "Weronika",
+      "address": "Rysiaaaaaaaa",
+      "phoneNumber": "71 721 321 2313",
+      "email": "wearasdaadsa@email.com"
+    },
+    {
+      "fullName": "fegf",
+      "address": "fdgf",
+      "phoneNumber": "dfgfd213",
+      "email": "fdg@gmail.com",
+      "id": 6
+    },
+    {
+      "fullName": "testteste",
+      "address": "test",
+      "phoneNumber": "test",
+      "email": "test@wp.pl",
+      "id": 7
+    },
+    {
+      "fullName": "sdf",
+      "address": "sdf",
+      "phoneNumber": "sdf",
+      "email": "sdf@ww.pl",
+      "id": 8
+    }
+  ]
+}
